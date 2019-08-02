@@ -1,0 +1,35 @@
+abstrct class A{
+abstract int add(int a,intb);
+int a=10;
+}
+interface X{
+void test();
+default void demo(){
+System.out.println();
+}
+static void show(){
+System.out.println();
+}
+}
+interface Y{
+void test();
+default void demo(){
+System.out.println();
+}
+int =20;
+}
+class Z extends A implements X,Y
+{
+int add(inta,intb){
+int c=a+b;
+return cc;
+}
+public void test(){
+System.out.println();
+}
+}
+class est{
+public static void main(String []a){
+
+}
+}
